@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SkyFont";
+  src: local("SkyFont"),
+   url("./fonts/sky_reg-webfont.woff") format("truetype");
+   font-weight: 600;
+}
+
+@font-face { 
+  font-family: "SkyFont";
+  src: local("SkyFont"),
+   url("./fonts/sky_med-webfont.woff") format("truetype");
+  font-weight: 700;
+}
+
+@font-face { 
+  font-family: "SkyFont";
+  src: local("SkyFont"),
+   url("./fonts/sky_bold-webfont.woff") format("truetype");
+  font-weight: 900;
+}
+
+body {
+  background-color: #935c8c;
+  font-family: 'SkyFont';
+}

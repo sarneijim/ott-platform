@@ -1,0 +1,12 @@
+# Cache and Dependenies
+.cache/
+node_modules/
+
+# Build Files
+build/
+dist/
+package-lock.json
+
+# Others
+.DS_Store
+.vs_code/
