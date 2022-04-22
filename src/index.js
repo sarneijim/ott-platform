@@ -1,20 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import 'tw-elements';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "tw-elements";
 
 // Fonts
-import './fonts/sky_bold-webfont.woff';
-import './fonts/sky_med-webfont.woff';
-import './fonts/sky_reg-webfont.woff';
+import "./fonts/sky_bold-webfont.woff";
+import "./fonts/sky_med-webfont.woff";
+import "./fonts/sky_reg-webfont.woff";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
