@@ -24,22 +24,20 @@ const Home = () => {
   });
 
   return (
-    <div>
-      <div class="container my-8 px-6 mx-auto">
-        <section class="mb-4 text-gray-800">
-          <h2 class="text-3xl font-bold mb-12 text-center">Daily Viewers</h2>
-          <div class="w-full relative block bg-white rounded-lg shadow-lg mb-6 px-10 py-10">
-            <TimeChart />
-          </div>
-        </section>
+    <div className="container my-8 px-6 mx-auto">
+      <section className="mb-4 text-gray-800">
+        <h2 className="text-3xl font-bold mb-12 text-center">Daily Viewers</h2>
+        <div className="w-full relative block bg-white rounded-lg shadow-lg mb-6 px-10 py-10">
+          <TimeChart />
+        </div>
+      </section>
 
-        <section class="text-gray-800">
-          <h2 class="text-3xl font-bold mb-12 text-center">Top Movies</h2>
-          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {cards}
-          </div>
-        </section>
-      </div>
+      <section className="text-gray-800">
+        <h2 className="text-3xl font-bold mb-12 text-center">Top Movies</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {cards}
+        </div>
+      </section>
     </div>
   );
 };
